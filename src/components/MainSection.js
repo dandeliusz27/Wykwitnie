@@ -8,13 +8,13 @@ function MainSection() {
     return (
         <div className='main-container'>
             <h1>WYKWITNIE</h1>
-            <p>Jakoś</p>
+            <p>Twoje kwiaty i usługi pierwszego wyboru</p>
             <div className="main-btns">
                <Button className="btns" buttonStyle='btn--outline' buttonSize='btn--large'>
-                   Lorem, ipsum.
+                   Projektant 
                 </Button>
                 <Button className="btns" buttonStyle='btn--primary' buttonSize='btn--large'>
-                   Lorem, ipsum.
+                   Uroczystości 
                 </Button>
             </div>
         </div>
