@@ -10,10 +10,10 @@ function MainSection() {
             <h1>WYKWITNIE</h1>
             <p>Twoje kwiaty i usługi pierwszego wyboru</p>
             <div className="main-btns">
-               <Button className="btns" buttonStyle='btn--outline' buttonSize='btn--large'>
+               <Button className="btns" buttonStyle='btn--outline' buttonSize='btn--large' path='/wedding-designer'>
                    Projektant 
                 </Button>
-                <Button className="btns" buttonStyle='btn--primary' buttonSize='btn--large'>
+                <Button className="btns" buttonStyle='btn--primary' buttonSize='btn--large' path='celebrations'>
                    Uroczystości 
                 </Button>
             </div>
