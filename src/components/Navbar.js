@@ -60,7 +60,6 @@ function Navbar() {
                                     Rezerwuj
                                 </Link>
                             </li>
-                            
                         </ul>
                         {button && <Button buttonStyle='btn--outline' path='./sign-up'>Rezerwuj</Button>}
                     </div>

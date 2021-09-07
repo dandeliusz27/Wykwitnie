@@ -18,8 +18,8 @@ class SimpleMap extends Component {
 	  	// Important! Always set the container height explicitly
 	  	<div className="main-container">
 		  	<div className="description-container">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iusto molestias officia aut placeat alias dicta, temporibus, sapiente voluptatibus a qui vitae ipsa voluptatum aliquam vel consequuntur quo, molestiae cumque similique earum fuga id recusandae ipsum! Nam vero officiis commodi animi dolorum nulla. Tenetur perspiciatis et ad quos! Ducimus unde at dignissimos eos, in qui deleniti vero. Accusantium quibusdam est quos. Enim numquam, quis qui dicta possimus nostrum ratione ipsa officia similique sunt nam voluptates impedit dolor aspernatur dolores corrupti?</p>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iusto molestias officia aut placeat alias dicta, temporibus, sapiente voluptatibus a qui vitae ipsa voluptatum aliquam vel consequuntur quo, molestiae cumque similique earum fuga id recusandae ipsum! Nam vero officiis commodi animi dolorum nulla. Tenetur perspiciatis et ad quos! Ducimus unde at dignissimos eos, in qui deleniti vero. Accusantium quibusdam est quos. Enim numquam, quis qui dicta possimus nostrum ratione ipsa officia similique sunt nam voluptates impedit dolor aspernatur dolores corrupti?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sunt sequi debitis a magni eaque, ut voluptatibus temporibus cumque dolores!</p>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident iste nobis facilis sapiente magnam nisi sed molestiae eveniet vero illum!</p>
 			</div>
 			<div style={{height: '100vh',width: '100%', padding: '20px', backgroundColor: '#fff'}} >
 				<GoogleMapReact bootstrapURLKeys={{ key:""}} defaultCenter={this.props.center} defaultZoom={this.props.zoom}>
