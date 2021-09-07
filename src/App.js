@@ -6,10 +6,10 @@ import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
-import Location from './components/pages/Location';
 import Footer from "./components/Footer";
 import  WeddingDesigner  from "./components/pages/WeddingDesigner";
 import  Celebrations  from "./components/pages/Celebrations";
+import SimpleMap from './components/pages/Location';
 
 
 
@@ -24,7 +24,7 @@ function App() {
 						<Route path='/services' exact component={Services} />
 						<Route path='/products' exact component={Products} />
 						<Route path='/sign-up' exact component={SignUp} />
-						<Route path='/location' exact component={Location} />
+						<Route path='/location' exact component={SimpleMap} />
 						<Route path='/wedding-designer' exact component={WeddingDesigner} />
 						<Route path='/celebrations' exact component={Celebrations} />
 		  			</Switch>

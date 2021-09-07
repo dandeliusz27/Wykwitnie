@@ -22,16 +22,19 @@
   .footer-subscription > p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
+      
   }
   
   .footer-subscription-heading {
     margin-bottom: 24px;
     font-size: 24px;
+    color: #fff;
   }
   
   .footer-subscription-text {
     margin-bottom: 24px;
     font-size: 20px;
+    color: #fff;
   }
   
   .footer-input {
@@ -157,6 +160,33 @@
     .social-media-wrap {
       flex-direction: column;
     }
+
+    .footer-subscribtion {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer-subscription-heading {
+      width: 80%;
+      color: #fff;
+    }
+
+    .footer-subscription-text {
+      width: 80%;
+      color: #fff;
+    }
+
+    .input-areas {
+      width: 80%;
+      display: flex;
+      align-items: center;
+    }
+
+    .input-areas > form {
+      width: 100%;
+    }
+
   }
   
   @media screen and (max-width: 768px) {

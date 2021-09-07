@@ -1,0 +1,41 @@
+.description-container {
+    height: 30vh;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container {
+    background-color: #fff;
+    height: 130vh;
+}
+
+
+@media screen and (max-width: 960px) {
+    .description-container {
+        height: 30vh;
+        background-color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .main-container {
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description-container {
+        height: 60vh;
+        background-color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-container {
+        height: 160vh;
+    }
+}
