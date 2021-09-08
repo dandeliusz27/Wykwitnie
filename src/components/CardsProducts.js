@@ -16,13 +16,13 @@ function CardsProducts() {
                             src={Rose}
                             text="Wszystkie kwiaty słońca, od Mercurego do Neptuna"
                             label="Kwiaty"
-                            path="/products"
+                            path="/product1"
                         />
                         <CardItem 
                             src={Chr}
                             text="Doniczki prawie tak zajebiste jak te które robił Dulitata w 1996r"
                             label="Donice"
-                            path="/products"
+                            path="/product2"
                         />
                     </ul>
                     <ul className="cards__item">
