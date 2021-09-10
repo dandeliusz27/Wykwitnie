@@ -38,6 +38,8 @@ function CardsServices() {
                             label="Jakieś roślinki"
                             path="/Services"
                         />
+                    </ul>
+                    <ul className="cards__item">
                         <CardItem 
                             src={Image}
                             text="To mały krok dla ludzkości, ale dla karła normalny"

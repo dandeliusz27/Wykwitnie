@@ -1,8 +1,10 @@
 import React from 'react';
 import CardItem from './CardItem';
-import Image from "./images/img-9.jpg"
-import Rose from "./images/img-rose.jpg"
-import Chr from "./images/img-chr.jpg"
+import Bday from "./images/img-ur.jpg"
+import Rose from "./images/img-rose-red.jpg"
+import Don from "./images/img-don.jpg"
+import Orange from "./images/img-rose-or.jpg"
+import Wien from "./images/img-wien.jpg"
 
 function CardsMain() {
     return (
@@ -13,34 +15,34 @@ function CardsMain() {
                     <ul className="cards__item">
                         <CardItem 
                             src={Rose}
-                            text="Wszystkie kwiaty słońca, od Mercurego do Neptuna"
-                            label="Kwiaty"
+                            text="Ładne kwiatki"
+                            label="Produkty"
                             path="/product1"
                         />
                         <CardItem 
-                            src={Chr}
-                            text="Doniczki prawie tak zajebiste jak te które robił Dulitata w 1996r"
-                            label="Donice"
+                            src={Don}
+                            text="Ładne doniczki"
+                            label="Produkty"
                             path="/product2"
                         />
                     </ul>
                     <ul className="cards__item">
                         <CardItem 
-                            src={Image}
-                            text="Cokolwiek tam jeszcze macie, nie jestem pewien czy wodospady"
-                            label="Wodotryski"
+                            src={Orange}
+                            text="Wiecej ładnych kwiatków"
+                            label="Produkty"
                             path="/products"
                         />
                         <CardItem 
-                            src={Image}
-                            text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coś kurwa, ten?"
-                            label="Jakieś roślinki"
+                            src={Wien}
+                            text="Układanie wieńców"
+                            label="Usługi"
                             path="/services"
                         />
                         <CardItem 
-                            src={Image}
-                            text="To mały krok dla ludzkości, ale dla karła normalny"
-                            label="Kapitan Bomba"
+                            src={Bday}
+                            text="Urodziny dla dzieci"
+                            label="Usługi"
                             path="/services"
                         />
                     </ul>

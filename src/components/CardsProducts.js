@@ -38,6 +38,8 @@ function CardsProducts() {
                             label="Jakieś roślinki"
                             path="/products"
                         />
+                    </ul>
+                    <ul className="cards__item">
                         <CardItem 
                             src={Image}
                             text="To mały krok dla ludzkości, ale dla karła normalny"
@@ -50,6 +52,8 @@ function CardsProducts() {
                             label="Jakieś roślinki"
                             path="/products"
                         />
+                    </ul>
+                    <ul className="cards__item">
                          <CardItem 
                             src={Image}
                             text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coś kurwa, ten?"
