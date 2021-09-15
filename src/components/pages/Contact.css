@@ -1,0 +1,65 @@
+.contact-wrapper {
+    max-width: 480px;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.email-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.input-box > input, textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.input-box > span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.input-box > input:focus ~ span,
+.input-box > input:valid ~ span,
+.input-box > textarea:focus ~ span,
+.input-box > textarea:valid ~ span
+ {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.input-box > input[type="submit"]
+{
+    width: 200px; 
+    background: #242424;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}

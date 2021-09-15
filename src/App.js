@@ -6,7 +6,7 @@ import  ScrollToTop  from "./components/ScrollToTop";
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import Contact from './components/pages/Contact';
 import Footer from "./components/Footer";
 import  WeddingDesigner  from "./components/pages/WeddingDesigner";
 import  Celebrations  from "./components/pages/Celebrations";
@@ -27,7 +27,7 @@ function App() {
 						<Route path='/' exact component={Home} />
 						<Route path='/services' exact component={Services} />
 						<Route path='/products' exact component={Products} />
-						<Route path='/sign-up' exact component={SignUp} />
+						<Route path='/contact' exact component={Contact} />
 						<Route path='/location' exact component={SimpleMap} />
 						<Route path='/wedding-designer' exact component={WeddingDesigner} />
 						<Route path='/celebrations' exact component={Celebrations} />
